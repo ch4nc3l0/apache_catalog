@@ -2,7 +2,7 @@
 3.92.195.103
 
 # Home url
-[http://3.92.195.103/](http://3.92.195.103/)
+[catalog-app.mooo.com](http://catalog-app.mooo.com/catalog)
 
 # Software Installed
 - Pip
@@ -29,6 +29,7 @@
 - Enforce private key login
 - Update all packages
 - Host ssh on port 2200
+- Set permitrootlogin to no
 - Setup apache to respond to port 80
 - Install & setup postgreSQL
 - Configure catalog-app-example to work on wsgi
