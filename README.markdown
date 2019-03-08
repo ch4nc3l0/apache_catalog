@@ -28,7 +28,7 @@
 - Generate keypair for grader
 - Enforce private key login
 - Update all packages
-- Host ssh on a non-default port
+- Host ssh on port 2200
 - Setup apache to respond to port 80
 - Install & setup postgreSQL
 - Configure catalog-app-example to work on wsgi
