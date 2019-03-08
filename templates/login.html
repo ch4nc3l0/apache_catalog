@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/login[1].css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/minnavbar.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/minxsnavbar.css') }}" media="(max-width: 599px)">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/minsmnavbar.css') }}" media="(min-width: 600px)">
+        <link rel="icon" type="image/png" href="{{ url_for('static', filename='imgs/code-fire.png') }}">
+        <title>Category-App-Example</title>
+</head>
+
+<body>
+        <div class="navbar">
+                <a class="appname" href="{{ url_for('catalog') }}">Category-App-Example</a>
+        </div>
+        <form class="loginform" method="POST">
+                <h1>Login to Catagory App</h1>
+                <div class="githubwrapper">
+                        <img class="" height="70rem" alt="github logo" src="{{url_for('static',filename='imgs/GitHub-Mark-64px.png')}}">
+                        <input class="logingithub" name='github' type='submit' value='Login with Github'>
+                </div>
+                <input class='nope' name='redirect' type='submit' value="Nope I don't wanna login">
+        </form>
+</body>
+
+</html>
